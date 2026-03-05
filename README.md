@@ -88,22 +88,22 @@ Input Image (150 x 150 x 3)
         │
         ▼
 ┌─────────────────────┐
-│   Conv2D (32 filters)│
-│   + ReLU + MaxPool   │
+│  Conv2D (32 filters)│
+│   + ReLU + MaxPool  │
 └─────────┬───────────┘
           ▼
 ┌─────────────────────┐
-│   Conv2D (64 filters)│
-│   + ReLU + MaxPool   │
+│  Conv2D (64 filters)│
+│   + ReLU + MaxPool  │
 └─────────┬───────────┘
           ▼
 ┌─────────────────────┐
-│  Conv2D (128 filters)│
-│   + ReLU + MaxPool   │
+│ Conv2D (128 filters)│
+│   + ReLU + MaxPool  │
 └─────────┬───────────┘
           ▼
 ┌─────────────────────┐
-│      Flatten         │
+│      Flatten        │
 └─────────┬───────────┘
           ▼
 ┌─────────────────────┐
@@ -112,8 +112,8 @@ Input Image (150 x 150 x 3)
 └─────────┬───────────┘
           ▼
 ┌─────────────────────┐
-│  Dense (1) + Sigmoid │
-│  (Binary Output)     │
+│ Dense (1) + Sigmoid │
+│  (Binary Output)    │
 └─────────────────────┘
 ```
 
